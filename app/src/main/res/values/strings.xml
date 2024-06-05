@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">LinkLearn</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="logo_description">Logo</string>
+    <string name="welcome">Bienvenido a LearnLink!</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="login">Log In</string>
+    <string name="no_account">¿No tienes una cuenta aún? Registrate aqui</string>
+    <string name="enter_email">Introduce tu correo electrónico</string>
+    <string name="enter_password">Introduce tu contraseña</string>
+    <string name="register">Registrarse</string>
+    <string name="enter_name">Introduce tu username</string>
+    <string name="username">Username</string>
+
+
+    <string name="promotions">Promociones y Anuncios</string>
+    <string name="promotion_1">Promoción 1</string>
+    <string name="promotion_2">Promoción 2</string>
+    <string name="promotion_3">Promoción 3</string>
+    <string name="apply">Aplicar</string>
+    <string name="location_hint">Ubicación</string>
+    <string name="price_hint">Precio</string>
+    <string name="subject_prompt">Materia</string>
+
+
+    <string name="description_avatar_1">Avatar uno hombre gafas</string>
+    <string name="description_avatar_2">Avatar dos mujer  blanca</string>
+    <string name="description_avatar_3">Avatar tre niño con un movil </string>
+    <string name="description_avatar_4">Avatar cuatro mujer  negra</string>
+        <!-- Agrega descripciones para los demás avatares según corresponda -->
+
+
+</resources>

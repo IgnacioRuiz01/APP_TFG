@@ -75,6 +75,7 @@ public class ClassAdAdapter extends BaseAdapter {
         viewHolder.titleText.setText(classAd.getTitle());
         viewHolder.descriptionText.setText(classAd.getDescription());
         viewHolder.priceText.setText(String.format("€%.2f", classAd.getPrice()));
+
        // Picasso.get().load(classAd.getUser().getIdAvatar()).into(viewHolder.imageView);
 
         return convertView;

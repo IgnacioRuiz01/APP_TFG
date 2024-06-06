@@ -9,7 +9,7 @@ import androidx.lifecycle.ViewModel;
 
 import com.vedruna.tfg.DTO.UserDTO;
 import com.vedruna.tfg.Interfaces.UserInterface;
-import com.vedruna.tfg.Utils.Constants;
+import com.vedruna.tfg.Network.RetrofitClient;
 import com.vedruna.tfg.Utils.TokenManager;
 
 import java.io.IOException;
@@ -17,8 +17,6 @@ import java.io.IOException;
 import retrofit2.Call;
 import retrofit2.Callback;
 import retrofit2.Response;
-import retrofit2.Retrofit;
-import retrofit2.converter.gson.GsonConverterFactory;
 
 public class PerfilViewModel extends ViewModel {
 
@@ -35,18 +33,9 @@ public class PerfilViewModel extends ViewModel {
         return user;
     }
 
-    private void setupRetrofit() {
-        Retrofit retrofit = new Retrofit.Builder()
-                .baseUrl(Constants.BASE_URL)
-                .addConverterFactory(GsonConverterFactory.create())
-                .build();
-
-        userInterface = retrofit.create(UserInterface.class);
-    }
-
     public void loadUserProfile(Context context) {
         tokenManager = TokenManager.getInstance(context.getApplicationContext());
-        setupRetrofit();
+        userInterface = RetrofitClient.getUserInterface(context);
         String token = tokenManager.getToken();
         if (token != null) {
             Log.d(TAG, "Token retrieved: " + token);
@@ -62,7 +51,7 @@ public class PerfilViewModel extends ViewModel {
                         user.postValue(response.body());
                     } else {
                         Log.e(TAG, "Error loading user profile. Response code: " + response.code());
-                        // Añade más detalles del error si están disponibles
+                        user.postValue(null);
                         try {
                             Log.e(TAG, "ErrorBody: " + response.errorBody().string());
                         } catch (IOException e) {
@@ -74,12 +63,12 @@ public class PerfilViewModel extends ViewModel {
                 @Override
                 public void onFailure(Call<UserDTO> call, Throwable t) {
                     Log.e(TAG, "Error loading user profile", t);
+                    user.postValue(null);
                 }
             });
         } else {
             Log.e(TAG, "Token is null");
+            user.postValue(null);
         }
     }
-
-
 }

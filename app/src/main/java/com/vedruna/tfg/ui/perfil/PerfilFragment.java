@@ -7,6 +7,7 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
+import android.widget.ImageView;
 import android.widget.TextView;
 
 import androidx.annotation.NonNull;
@@ -38,6 +39,10 @@ public class PerfilFragment extends Fragment {
         Log.d(TAG, "Loading user profile");
         perfilViewModel.loadUserProfile(requireContext());
 
+        final ImageView avatar1 = binding.imageViewProfile1;
+        final ImageView avatar2 = binding.imageViewProfile2;
+        final ImageView avatar3 = binding.imageViewProfile3;
+        final ImageView avatar4 = binding.imageViewProfile4;
         final TextView userName = binding.username;
         final TextView email = binding.email;
         final TextView description = binding.description;
@@ -51,9 +56,41 @@ public class PerfilFragment extends Fragment {
                     userName.setText(user.getUsername());
                     email.setText(user.getEmail());
                     description.setText(user.getDescription());
+                    showUserAvatar(user.getIdAvatar());
                 } else {
                     Log.d(TAG, "User profile data is null");
+                    userName.setText("No user data available");
+                    email.setText("");
+                    description.setText("");
+                    hideAllAvatars();
                 }
+            }
+
+            private void showUserAvatar(int idAvatar) {
+                hideAllAvatars();
+                switch (idAvatar) {
+                    case 1:
+                        avatar1.setVisibility(View.VISIBLE);
+                        break;
+                    case 2:
+                        avatar2.setVisibility(View.VISIBLE);
+                        break;
+                    case 3:
+                        avatar3.setVisibility(View.VISIBLE);
+                        break;
+                    case 4:
+                        avatar4.setVisibility(View.VISIBLE);
+                        break;
+                    default:
+                        break;
+                }
+            }
+
+            private void hideAllAvatars() {
+                avatar1.setVisibility(View.GONE);
+                avatar2.setVisibility(View.GONE);
+                avatar3.setVisibility(View.GONE);
+                avatar4.setVisibility(View.GONE);
             }
         });
 

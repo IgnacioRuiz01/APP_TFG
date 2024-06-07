@@ -137,7 +137,7 @@ Aquí puedes ver algunas capturas de pantalla de la interfaz de usuario de la ap
 ![RegisterForm](img\RegisterForm.png)
 
 ### Lista de Anuncios
-!homeFragment[](img\homeFragment.png)
+![homeFragment](img\homeFragment.png)
 
 ### Buscador de Anuncios
 ![dashboardFragment](img\dashboardFragment.png)

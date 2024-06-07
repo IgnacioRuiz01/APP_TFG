@@ -121,12 +121,34 @@ La motivación principal detrás de este proyecto es mejorar la experiencia de l
 
 ## Documentación
 
-Para más detalles sobre la API y otras funcionalidades, visita nuestra [documentación](https://github.com/IgnacioRuiz01/API_TFG/wiki).
+Para más detalles sobre la API y otras funcionalidades, visita nuestra [documentación](https://github.com/IgnacioRuiz01/API_TFG).
 
 ---
 
 ## Interfaz de Usuario
 
+
+Aquí puedes ver algunas capturas de pantalla de la interfaz de usuario de la aplicación:
+
+### Pantalla de Inicio de Sesión
+![LoginActivity]("C:\Users\ignac\OneDrive\Escritorio\DAM\2\Multimedia\AndroidStudio\TFG\img\LoginActivity.png")
+
+### Pantalla de Registro
+![RegisterForm]("C:\Users\ignac\OneDrive\Escritorio\DAM\2\Multimedia\AndroidStudio\TFG\img\RegisterForm.png")
+
+### Lista de Anuncios
+![homeFragment]("C:\Users\ignac\OneDrive\Escritorio\DAM\2\Multimedia\AndroidStudio\TFG\img\homeFragment.png")
+
+### Buscador de Anuncios
+![dashboardFragment](path/to/ad_list_screenshot.png)
+
+### Crear Anuncio
+![createFragment]("C:\Users\ignac\OneDrive\Escritorio\DAM\2\Multimedia\AndroidStudio\TFG\img\dashboardFragment.png")
+
+### Perfil Usuario
+![perfilFragment]("C:\Users\ignac\OneDrive\Escritorio\DAM\2\Multimedia\AndroidStudio\TFG\img\perfilFragment.png")
+
+---
 
 
 ---

@@ -131,22 +131,22 @@ Para más detalles sobre la API y otras funcionalidades, visita nuestra [documen
 Aquí puedes ver algunas capturas de pantalla de la interfaz de usuario de la aplicación:
 
 ### Pantalla de Inicio de Sesión
-![LoginActivity]("C:\Users\ignac\OneDrive\Escritorio\DAM\2\Multimedia\AndroidStudio\TFG\img\LoginActivity.png")
+![LoginActivity]("img\LoginActivity.png")
 
 ### Pantalla de Registro
-![RegisterForm]("C:\Users\ignac\OneDrive\Escritorio\DAM\2\Multimedia\AndroidStudio\TFG\img\RegisterForm.png")
+![RegisterForm]("img\RegisterForm.png")
 
 ### Lista de Anuncios
-![homeFragment]("C:\Users\ignac\OneDrive\Escritorio\DAM\2\Multimedia\AndroidStudio\TFG\img\homeFragment.png")
+![homeFragment]("img\homeFragment.png")
 
 ### Buscador de Anuncios
-![dashboardFragment](path/to/ad_list_screenshot.png)
+![dashboardFragment]("img\dashboardFragment.png")
 
 ### Crear Anuncio
-![createFragment]("C:\Users\ignac\OneDrive\Escritorio\DAM\2\Multimedia\AndroidStudio\TFG\img\dashboardFragment.png")
+![createFragment]("img\createFragment.png")
 
 ### Perfil Usuario
-![perfilFragment]("C:\Users\ignac\OneDrive\Escritorio\DAM\2\Multimedia\AndroidStudio\TFG\img\perfilFragment.png")
+![perfilFragment]("img\perfilFragment.png")
 
 ---
 

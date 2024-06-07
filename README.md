@@ -131,22 +131,22 @@ Para más detalles sobre la API y otras funcionalidades, visita nuestra [documen
 Aquí puedes ver algunas capturas de pantalla de la interfaz de usuario de la aplicación:
 
 ### Pantalla de Inicio de Sesión
-![LoginActivity]("img\LoginActivity.png")
+![](img\LoginActivity.png)
 
 ### Pantalla de Registro
-![RegisterForm]("img\RegisterForm.png")
+![](img\RegisterForm.png)
 
 ### Lista de Anuncios
-![homeFragment]("img\homeFragment.png")
+![](img\homeFragment.png)
 
 ### Buscador de Anuncios
-![dashboardFragment]("img\dashboardFragment.png")
+![](img\dashboardFragment.png)
 
 ### Crear Anuncio
-![createFragment]("img\createFragment.png")
+![](img\createFragment.png)
 
 ### Perfil Usuario
-![perfilFragment]("img\perfilFragment.png")
+![](img\perfilFragment.png)
 
 ---
 

@@ -131,22 +131,22 @@ Para más detalles sobre la API y otras funcionalidades, visita nuestra [documen
 Aquí puedes ver algunas capturas de pantalla de la interfaz de usuario de la aplicación:
 
 ### Pantalla de Inicio de Sesión
-![LoginActivity](img\LoginActivity.png)
+![LoginActivity](https://github.com/IgnacioRuiz01/APP_TFG/blob/master/img/LoginActivity.png?raw=true)
 
 ### Pantalla de Registro
-![RegisterForm](img\RegisterForm.png)
+![RegisterForm](https://github.com/IgnacioRuiz01/APP_TFG/blob/master/img/RegisterForm.png?raw=true)
 
 ### Lista de Anuncios
-![homeFragment](img\homeFragment.png)
+![homeFragment](https://github.com/IgnacioRuiz01/APP_TFG/blob/master/img/homeFragment.png?raw=true)
 
 ### Buscador de Anuncios
-![dashboardFragment](img\dashboardFragment.png)
+![dashboardFragment](https://github.com/IgnacioRuiz01/APP_TFG/blob/master/img/dashboardFragment.png?raw=true)
 
 ### Crear Anuncio
-![createFragment](img\createFragment.png)
+![createFragment](https://github.com/IgnacioRuiz01/APP_TFG/blob/master/img/createFragment.png?raw=true)
 
 ### Perfil Usuario
-![perfilFragment](img\perfilFragment.png)
+![perfilFragment](https://github.com/IgnacioRuiz01/APP_TFG/blob/master/img/perfilFragment.png?raw=true)
 
 ---
 
